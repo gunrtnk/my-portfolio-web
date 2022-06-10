@@ -99,7 +99,7 @@ const Project = () => {
             spaceBetween={100}
             centeredSlides={true}
             autoplay={{
-              delay: 5500,
+              delay: 8500,
               disableOnInteraction: false,
             }}
             pagination={{

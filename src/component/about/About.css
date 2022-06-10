@@ -64,7 +64,7 @@ margin-top: 1rem;
     .About-container{
         display: grid;
         margin: 0 0.5rem;
-        height: 147vh;
+        height: 150vh;
       
     }
     .a-sub{
@@ -85,5 +85,7 @@ margin-top: 1rem;
         padding: 1rem 1rem;
       
     }
+
+  
   
 }
