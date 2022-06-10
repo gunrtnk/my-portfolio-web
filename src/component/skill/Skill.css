@@ -1,0 +1,156 @@
+.skill-container{
+    display: grid;
+    margin:0rem 10rem 3rem 10rem;
+    height: 77vh;
+   
+}
+
+.sub-con{
+    margin-top: 15rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.icons{
+    width: 20rem;
+    height: auto;
+    
+}
+
+.s-text{
+    margin-left: 8rem;
+}
+
+.skill{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2rem;
+}
+
+.skill ul{
+    list-style-type: none;
+   
+}
+
+.ii{
+    width: 5rem;
+    position: absolute;
+    margin-left: 8rem;
+    margin-top: 3rem;
+}
+
+.soft-skill{
+    display: flex;
+    flex-direction: column;
+   margin-left: 8rem;
+
+}
+
+.skill-con1,.skill-con2{
+    background: white;
+    border-radius: 2rem;
+  
+}
+
+
+
+.s-main-cy{
+    position: relative;
+}
+
+.s-main-cy>*{
+    position: absolute;
+}
+
+.soft-skill img {
+    position: absolute;
+    margin-right: 20rem;
+    margin-top: 15rem;
+    width: 10rem;
+    
+}
+
+.s-main-cy .s-html{
+ left: 7rem;
+ top: -4rem;
+}
+.s-main-cy .s-css{
+ left: -4rem;
+ top: 6rem;
+}
+.s-main-cy .s-js{
+ left: 7rem;
+ top: 6rem;
+}
+.s-main-cy .s-react{
+ left: -4rem;
+ top: -4rem;
+}
+
+
+.s-html i{
+    color: darkorange;
+    font-size: 8rem;
+}
+.s-css i{
+    color: rgb(46, 138, 236);
+    font-size: 8rem;
+}
+.s-js i{
+    color: rgb(247, 219, 5);
+    font-size: 8rem;
+}
+.s-react i{
+    color: rgb(78, 211, 252);
+    font-size: 8rem;
+}
+
+.s-text{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+@media screen and (max-width:480px){
+
+    .skill-container{
+        display: grid;
+        margin:3rem 1rem 3rem 1rem;
+        height: 100vh;
+       
+    }
+ .sub-con{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 5rem;
+  
+ }
+
+ .s-text{
+    margin-left: 2rem;
+}
+
+.skill ul{
+    list-style-type: none;
+   padding: 0.5rem;
+}
+
+.hard-skill{
+    height: 44vh;
+}
+
+.soft-skill{
+    display: flex;
+    flex-direction: column;
+   margin-left: 30%;
+   margin-top: 5rem;
+   height: 60vh;
+
+}
+
+.skill-con1 ul{
+    margin-left: 1rem;
+}
+
+
+
+}

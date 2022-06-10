@@ -1,0 +1,130 @@
+.c-container{
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 6rem 5.5rem;
+    justify-items: center;
+    position: relative;
+}
+
+.c-detail form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 1rem;
+    justify-items: center;
+    align-items: center;
+}
+
+.user, .email, .c-form textarea{
+   width: 20rem;
+   margin-top: 2rem;
+   outline: none;
+   border: 2px solid rgba(117, 58, 133, 0.689);
+   font-size: 16px;
+}
+
+.user, .email{
+    height: 3rem;
+    border-radius: 2rem;
+    outline: none; 
+}
+
+/* .textarea{
+    height: 4rem !important;
+} */
+
+.usermsg{
+    height: 5rem !important;
+    border-radius: 1rem;
+   
+}
+
+
+
+.cf-con{
+    width: 120%;
+    background: white;
+    height: 25em;
+    border-radius: 2rem;
+    justify-content: center;
+}
+
+.ct{
+    margin-top: 2rem;
+    font-size: 1rem;
+    align-items: center;
+    justify-items: center;
+    width: 20rem;
+}
+
+h2{
+   display: flex;
+   justify-content: center;
+   margin-left: 2em;
+}
+
+.c-form span{
+    margin-top: 4.5rem;
+    color: #0DCE79;
+    font-weight: bolder;
+}
+
+.map img{
+    width: 100%;
+}
+
+@media screen and (max-width:480px){
+ 
+    .c-container{
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 1rem;
+        justify-items: center;
+        position: relative;
+    }
+    
+    .c-detail form{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-top: 1rem;
+        justify-items: center;
+        align-items: center;
+        width: 19rem;
+        padding: 1rem;
+    }
+
+    .user, .email, .c-form textarea{
+        width: 15rem;
+        margin-top: 2rem;
+        outline: none;
+        border: 2px solid rgba(117, 58, 133, 0.689);
+        font-size: 16px;
+     }
+    
+     .ct{
+        margin-top: 2rem;
+        font-size: 1rem;
+        align-items: center;
+        justify-items: center;
+        width: 15rem;
+    }
+
+    .cf-con{
+        width: 100%;
+        background: white;
+        height: 25em;
+        border-radius: 2rem;
+        justify-content: center;
+
+    }
+
+    h2{
+        display: flex;
+        justify-content: center;
+        margin-left: 0em;
+     }
+    
+}
