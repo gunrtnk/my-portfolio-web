@@ -1,38 +1,155 @@
+
+*{
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}
+
 .App {
-  text-align: center;
+  padding: 3rem 3.5rem;
+  overflow: hidden;
+  font-family: 'Maven Pro', sans-serif;
+  
+  background-color: #F4E5FF;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.apps{
+  background-color: #f8efff;
+  border-radius: 5rem;
+  padding: 1.5rem 1.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.appss{
+  background-color: #fcf7ff;
+  border-radius: 5rem;
+  padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+
+.button{
+  border-radius:20px ;
+  border: none;
   color: white;
+  font-size: 24px;
+  padding: 11px 26px 11px 26px ;
+  background: linear-gradient(180deg, #A970C3 26%, #8851B8 99%);
+  box-shadow: 0px 20px 24px 3px #D4B7E1;
+
 }
 
-.App-link {
-  color: #61dafb;
+.button:hover{
+  background: white;
+  cursor: pointer;
+  color: #845ec2;
+  border: 2px solid #845ec2 ;
 }
 
-@keyframes App-logo-spin {
+
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
+} */
+
+.footer{
+  height: 15vh;
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+}
+
+.social2{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.social2 i{
+  font-size: 2.5rem;
+  padding: 1rem;
+  color: #000000a6;
+
+}
+.social2 i:hover{
+  color: #000000e9;
+
+}
+
+.f-con{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  margin-top: 3rem;
+
+}
+
+.f-1{
+  font-size: 1rem;
+  margin-left: 10rem;
+  color: #000000a6;
+}
+
+.f2{
+  margin-right: 15rem;
+}
+
+/* .foot-port{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+} */
+
+
+@media screen and (max-width:480px){
+
+ .App {
+  padding: 1.5rem 0.5rem;
+  overflow: hidden;
+  font-family: 'Maven Pro', sans-serif;
+  
+  background-color: #F4E5FF;
+}
+
+.apps{
+  background-color: #f8efff;
+  border-radius: 5rem;
+  padding: 1rem 1rem;
+}
+
+.appss{
+  background-color: #fcf7ff;
+  border-radius: 5rem;
+  padding: 0;
+}
+
+.f-1{
+  font-size: 1rem;
+  margin-left: 1rem;
+  color: #000000a6;
+}
+
+.social2{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+}
+
+.f2{
+  margin-right: 5rem;
+}
+
+.social2 i{
+  font-size: 1.5rem;
+  padding: 1rem;
+  color: #000000a6;
+
+}
+
+.footer{
+  margin-bottom: 1rem;
+}
+  
 }
