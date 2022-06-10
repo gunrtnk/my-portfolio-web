@@ -59,7 +59,7 @@
     font-size: 2em;
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:1000px){
     .pj-container{
         height: 77vh;
         margin: 0rem 0.5rem;

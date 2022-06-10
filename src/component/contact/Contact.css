@@ -74,10 +74,10 @@ h2{
     width: 100%;
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:1000px){
  
     .c-container{
-        height: 100vh;
+        height: 120vh;
         display: grid;
         grid-template-columns: 1fr;
         padding: 1rem;

@@ -15,7 +15,7 @@
 }
 .p-con{
     display: grid;
-    grid-template-columns: 0.3fr 0.7fr 1fr;
+    grid-template-columns: 15% 35% 50%;
     margin-top: 4rem;
     padding: 0 4.5rem;
 }
@@ -155,7 +155,7 @@
     margin-left: 50rem;
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:1000px){
 
     .Profile{
         display: flex;
