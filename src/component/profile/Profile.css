@@ -190,6 +190,10 @@
     .intro-p{
         display: grid;
         
+        font-size: 0.6em;
+    }
+
+    .intro{
         font-size: 0.8em;
     }
 
