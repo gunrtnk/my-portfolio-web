@@ -1,12 +1,19 @@
 import React, { useRef, useState } from "react";
 import "./Contact.css";
 import Img1 from "../../img/6.svg";
+// import { Modal } from 'react-bootstrap';
 
 import emailjs from "@emailjs/browser";
 const Contact = () => {
   const form = useRef();
+
+  // const [show, setShow] = useState(false);
+
+  // const handleClose = () => setShow(false);
+  // const handleShow = () => setShow(true);
+
   const [done, setDone] = useState(false);
-  let [resetForm, resetInputField ] = useState(false);
+  let [resetForm, resetInputField] = useState(false);
 
   const [inputValue, setUserValue] = useState("");
   const [inputValue2, setEmailValue] = useState("");
@@ -28,8 +35,6 @@ const Contact = () => {
     setMsgValue("");
   };
 
-  
-
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -45,15 +50,14 @@ const Contact = () => {
           console.log(result.text);
           setDone(true);
 
-          resetInputField(true)
+          resetInputField(true);
+          
         },
         (error) => {
           console.log(error.text);
         }
       );
   };
-
-
 
   return (
     <div>
@@ -64,6 +68,7 @@ const Contact = () => {
         <div className="c-right">
           <div className="c-detail">
             <h2>CONTACT ME</h2>
+
 
             <div className="cf-con">
               <form ref={form} onSubmit={resetForm} className="c-form">
@@ -95,10 +100,11 @@ const Contact = () => {
                   value="Send"
                   name="user_name"
                   className="button ct"
+                 
                   onClick={sendEmail}
+                  // onClick={handleShow}
                 ></input>
                 <span>{done && "Thank you for contact me (:"}</span>
-                
               </form>
             </div>
           </div>

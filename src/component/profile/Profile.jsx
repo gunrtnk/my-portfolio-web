@@ -1,8 +1,7 @@
 import React from "react";
 import "./Profile.css";
-import ProfileIMG from "../../img/IMG_0195.jpeg";
-import IMG1 from "../../img/12.svg";
-import IMG2 from "../../img/13.svg";
+import ProfileIMG from "../../img/profile-pic.png";
+
 import ReactTyping from "react-typing-effect";
 import { motion, useMotionValue } from "framer-motion";
 
@@ -59,13 +58,13 @@ const Profile = () => {
           <div className="p-right">
 
             <div className="cycle">
-              {/* <motion.img
-                initial={{ left: "-56%" }}
-                whileInView={{ left: "-2%" }}
+              <motion.img
+                initial={{ top: "30%" }}
+                whileInView={{ top: "0%" }}
                 transition={transition}
                 src={ProfileIMG}
                 className="p-img"
-              /> */}
+              />
             </div>
           </div>
           {/* <div className="stk">

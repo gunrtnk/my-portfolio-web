@@ -1,7 +1,7 @@
 // import React from "react";
 import "./Project.css";
 // import { Swiper, SwiperSlide } from "swiper/react";
-import IMG from "../../img/IMG_0195.jpeg";
+
 import Fn from "../../img/pjfinal.png";
 import Dt from "../../img/pjdata.png";
 
