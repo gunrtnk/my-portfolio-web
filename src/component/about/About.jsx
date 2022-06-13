@@ -13,9 +13,9 @@ const About = () => {
         <div className="a-textsub">
           &nbsp; &nbsp; <span> My name is Rattanakorn Chongruaiklang,</span>
           <span>
-            {" "}
+          
             I have just finished Computer Science. And now i'm interested in
-            website development.
+            application development.
           </span>
         </div>
         <img src={Icons} className="icons"></img>

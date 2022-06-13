@@ -19,7 +19,7 @@ const Skill = () => {
                 <li className="s-html">html</li>
                 <li className="s-css">css</li>
                 <li className="s-js">javaScript</li>
-                <li className="s-react">react</li>
+                <li className="s-react">react.js</li>
               </ul></div>
               <div></div>
               <div></div>
